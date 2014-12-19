@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'translator/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "translator"
+  spec.name          = "translator-locales"
   spec.version       = Translator::VERSION
   spec.authors       = ["lokesh jain"]
   spec.email         = ["lokeshjain2008@gmail.com"]

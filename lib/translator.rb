@@ -22,6 +22,8 @@ module Moda
         end
         $key_placer.pop
       end
+      #call the function for the iteration
+      iterate $file_content
       #create file from the default lang to other lang.
       File.open("config/locales/#{lang}.yml",'w') do |f|
         

@@ -5,12 +5,12 @@ require 'json'
 require 'yaml'
 
 
-module Translator
+module Moda
 
   class << self
     def create_file (default_file='config/locales/en.yml',lang='pt')
       $key_placer = []
-      $file_content = YAML::file_load(default_file)
+      $file_content = YAML::load_file(default_file)
       def iterate item
         item.each do |k, v|
           if v.is_a? Hash

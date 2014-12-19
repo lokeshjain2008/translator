@@ -11,6 +11,7 @@ module Moda
     def create_file (default_file='config/locales/en.yml',lang='pt')
       $key_placer = []
       $file_content = YAML::load_file(default_file)
+      $file_content.extend XKeys::Hash
       def iterate item
         item.each do |k, v|
           if v.is_a? Hash

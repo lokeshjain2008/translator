@@ -5,7 +5,7 @@ require 'json'
 require 'yaml'
 
 
-module Moda
+module Translator
 
   class << self
     def create_file (default_file='config/locales/en.yml',lang='pt')
@@ -34,7 +34,7 @@ module Moda
     end
 
     def translate(value)
-      p "Hey this is called"
+      puts '.'
       if value
         key ='trnsl.1.1.20141217T131538Z.6dbc348f781682d3.8c10d7dd93f264d51bfe6e14d1c1fe3b15a37aed'
         domain = 'https://translate.yandex.net/api/v1.5/tr.json/translate'

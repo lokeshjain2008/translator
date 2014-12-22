@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: Remove print statement form translator.rb
+TODO: Add rake task to the rails rake tasks
+TODO: Add ability to make call from Google,Bing and more
+TODO: Make it more intelligent.
+TODO: Take care to array element in the yml file.
 
 ## Contributing
 

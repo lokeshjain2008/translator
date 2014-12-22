@@ -4,7 +4,7 @@ describe Translator do
 
   it 'version should be ' do
     # Translator::VERSION.should eq '0.0.3.0'
-    expect(Translator::VERSION).to eq('0.0.3.0')
+    expect(Translator::VERSION).to eq('0.0.3.1')
 
   end
 

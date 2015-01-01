@@ -1,6 +1,6 @@
 # Translator
 
-TODO: Write a gem description
+This gem will create translated files for the other languages using third-party api's like google-transaltor.
 
 ## Installation
 
